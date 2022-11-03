@@ -1,0 +1,109 @@
+/* Colors and fonts */
+body {
+	background-color: #EDF1EA;
+	color: #A2AE67;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 80;
+}
+h1 {
+	color: #1e352f;
+	font-family: roboto, serif;
+	font-weight: 700;
+	font-size: 45px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 25px;
+	font-family: Roboto, serif;
+	font-weight: 300;
+	color: #3B5F51;
+	font-weight: bold;
+}
+h3{
+	color:#828C51 ;
+	font-family: Roboto, serif;
+	font-weight: 200;
+	font-weight: bold;
+}
+a{
+	color: #335145;
+}
+a:hover {
+	color: #A6C36F;
+}
+
+
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-green {
+	background-color: #335145;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 7px;
+}
+.btn-green:hover {
+	background-color: #A6C36F;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: #335145;
+}
+.list-inline i:hover {
+	color: #A6C36F;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
